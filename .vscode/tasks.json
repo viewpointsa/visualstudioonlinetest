@@ -2,10 +2,10 @@
     "version": "2.0.0",
     "tasks": [
       {
-        "label": "build hello world",
+        "label": "make",
         "type": "shell",
-        "command": "g++",
-        "args": ["-g", "-o", "main", "main.cpp"],
+        "command": "make",
+        "args": [],
         "group": {
           "kind": "build",
           "isDefault": true
